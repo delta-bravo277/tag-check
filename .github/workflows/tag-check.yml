@@ -16,8 +16,6 @@ jobs:
 
     - name: Assign TAG
       id: get-tag
-#       # uses: delta-bravo277/github-action-tag@main
-#       uses: anothrNick/github-tag-action@1.61.0
       uses: sanketl-talentica/github-actions-tag@main
       env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
