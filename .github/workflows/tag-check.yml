@@ -16,7 +16,7 @@ jobs:
 
     - name: Assign TAG
       id: get-tag
-      uses: delta-bravo277/node-action
+      uses: delta-bravo277/node-action@main
       env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           WITH_V: true
