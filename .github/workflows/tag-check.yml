@@ -16,7 +16,7 @@ jobs:
 
     - name: Assign TAG
       id: get-tag
-      uses: sanketl-talentica/github-actions-tag@main
+      uses: delta-bravo277/node-action
       env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           WITH_V: true
